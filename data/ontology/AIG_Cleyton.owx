@@ -1,0 +1,1118 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/jorge/ontologies/2025/0/AIG_Cleyton"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/jorge/ontologies/2025/0/AIG_Cleyton">
+    <Prefix name="" IRI="http://www.semanticweb.org/jorge/ontologies/2025/0/AIG_Cleyton/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Algorithm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Approach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Author"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BenchPhaseClustering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClusteringProblem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DES"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deterministic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heuristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LGP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LTMP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LayerClustering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MILP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MathematicalModel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MiningCutClustering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MonoObjective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MultiObjective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObjectiveFunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProblemType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Publisher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#STMP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SchedulingProblem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stochastic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TimeHorizon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Title"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Toposort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Year"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#-"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_algorithm"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_approach"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_clustering_algorithm"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_clustering_problem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_objective"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_paper"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_publisher"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_scheduling_algorithm"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_scheduling_model"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_time_horizon"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_year"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#APCOM_Proceedings"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A_Genetic_Algorithms_Approach_For_Grade_Control_Planning_In_A_Bauxite_Deposit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#An_EDP-Model_Of_Open_Pit_Short_Term_Production_Scheduling_Optimization_For_Stratiform_Orebodies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Application_of_Computers_and_Operations_Research_in_the_Mineral_Industry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Askari-Nasab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Awuah-Offei"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bhattacherjee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chanda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Computers_and_Operations_Research"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ganguli"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mieth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mining_Technology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Morales"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moreno"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nelis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Newman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Open_pit_optimisation_using_discounted_economic_block_values"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Optimization_and_Engineering"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Practical_Performance_Of_An_Open_Pit_Mine_Scheduling_Model_Considering_Blending_And_Stockpiling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rezakhah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Samanta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tabesh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wilke"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bench-phase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#des"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#deterministic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#exact-algorithm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#heuristic-algorithm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#layer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lgp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#long-term"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#milp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mining-cut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mono-objective"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#multi-objective"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#short-term"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stochastic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#toposort"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#--"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1992"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2005"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2009"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2013"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2020"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2022"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A_Hybrid_Local_Search/Mixed_Integer_Programming_Approach_To_Open_Pit_Controlled_Phase-Design"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A_mathematical_model_for_the_scheduling_and_definition_of_mining_cuts_in_short‑term_mine_planning"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Author"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_paper"/>
+            <Class IRI="#Title"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Title"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#has_algorithm"/>
+                <Class IRI="#Algorithm"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#has_approach"/>
+                <Class IRI="#Approach"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#has_objective"/>
+                <Class IRI="#ObjectiveFunction"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#has_publisher"/>
+                <Class IRI="#Publisher"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#has_time_horizon"/>
+                <Class IRI="#TimeHorizon"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#has_year"/>
+                <Class IRI="#Year"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#BenchPhaseClustering"/>
+        <Class IRI="#ClusteringProblem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClusteringProblem"/>
+        <Class IRI="#ProblemType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DES"/>
+        <Class IRI="#MathematicalModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deterministic"/>
+        <Class IRI="#Approach"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exact"/>
+        <Class IRI="#Algorithm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GA"/>
+        <Class IRI="#Heuristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HC"/>
+        <Class IRI="#Heuristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heuristic"/>
+        <Class IRI="#Algorithm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LGP"/>
+        <Class IRI="#MathematicalModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LTMP"/>
+        <Class IRI="#TimeHorizon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LayerClustering"/>
+        <Class IRI="#ClusteringProblem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MILP"/>
+        <Class IRI="#MathematicalModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MiningCutClustering"/>
+        <Class IRI="#ClusteringProblem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MonoObjective"/>
+        <Class IRI="#ObjectiveFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MultiObjective"/>
+        <Class IRI="#ObjectiveFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RL"/>
+        <Class IRI="#Heuristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#STMP"/>
+        <Class IRI="#TimeHorizon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SchedulingProblem"/>
+        <Class IRI="#ProblemType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stochastic"/>
+        <Class IRI="#Approach"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TS"/>
+        <Class IRI="#Heuristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toposort"/>
+        <Class IRI="#Heuristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#-"/>
+        <Class IRI="#MathematicalModel"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#BenchPhaseClustering"/>
+        <Class IRI="#LayerClustering"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BenchPhaseClustering"/>
+        <Class IRI="#MiningCutClustering"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DES"/>
+        <Class IRI="#LGP"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DES"/>
+        <Class IRI="#MILP"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DES"/>
+        <Class IRI="#-"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Deterministic"/>
+        <Class IRI="#Stochastic"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#LGP"/>
+        <Class IRI="#MILP"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#LGP"/>
+        <Class IRI="#-"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#LTMP"/>
+        <Class IRI="#STMP"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#LayerClustering"/>
+        <Class IRI="#MiningCutClustering"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MILP"/>
+        <Class IRI="#-"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MonoObjective"/>
+        <Class IRI="#MultiObjective"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Publisher"/>
+        <NamedIndividual IRI="#APCOM_Proceedings"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#A_Genetic_Algorithms_Approach_For_Grade_Control_Planning_In_A_Bauxite_Deposit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#An_EDP-Model_Of_Open_Pit_Short_Term_Production_Scheduling_Optimization_For_Stratiform_Orebodies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Publisher"/>
+        <NamedIndividual IRI="#Application_of_Computers_and_Operations_Research_in_the_Mineral_Industry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#Askari-Nasab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#Awuah-Offei"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#Bhattacherjee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#Chanda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Publisher"/>
+        <NamedIndividual IRI="#Computers_and_Operations_Research"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#Ganguli"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#Mieth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Publisher"/>
+        <NamedIndividual IRI="#Mining_Technology"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#Morales"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#Moreno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#Nelis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#Newman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Open_pit_optimisation_using_discounted_economic_block_values"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Publisher"/>
+        <NamedIndividual IRI="#Optimization_and_Engineering"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#Practical_Performance_Of_An_Open_Pit_Mine_Scheduling_Model_Considering_Blending_And_Stockpiling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#Rezakhah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#Samanta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#Tabesh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#Wilke"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BenchPhaseClustering"/>
+        <NamedIndividual IRI="#bench-phase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DES"/>
+        <NamedIndividual IRI="#des"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Deterministic"/>
+        <NamedIndividual IRI="#deterministic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Exact"/>
+        <NamedIndividual IRI="#exact-algorithm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GA"/>
+        <NamedIndividual IRI="#ga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HC"/>
+        <NamedIndividual IRI="#hc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Heuristic"/>
+        <NamedIndividual IRI="#heuristic-algorithm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LayerClustering"/>
+        <NamedIndividual IRI="#layer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LGP"/>
+        <NamedIndividual IRI="#lgp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LTMP"/>
+        <NamedIndividual IRI="#long-term"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MILP"/>
+        <NamedIndividual IRI="#milp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MiningCutClustering"/>
+        <NamedIndividual IRI="#mining-cut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonoObjective"/>
+        <NamedIndividual IRI="#mono-objective"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MultiObjective"/>
+        <NamedIndividual IRI="#multi-objective"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RL"/>
+        <NamedIndividual IRI="#rl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#STMP"/>
+        <NamedIndividual IRI="#short-term"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stochastic"/>
+        <NamedIndividual IRI="#stochastic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toposort"/>
+        <NamedIndividual IRI="#toposort"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TS"/>
+        <NamedIndividual IRI="#ts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#-"/>
+        <NamedIndividual IRI="#--"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Year"/>
+        <NamedIndividual IRI="#1992"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Year"/>
+        <NamedIndividual IRI="#2005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Year"/>
+        <NamedIndividual IRI="#2009"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Year"/>
+        <NamedIndividual IRI="#2013"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Year"/>
+        <NamedIndividual IRI="#2020"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Year"/>
+        <NamedIndividual IRI="#2022"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#A_Hybrid_Local_Search/Mixed_Integer_Programming_Approach_To_Open_Pit_Controlled_Phase-Design"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title"/>
+        <NamedIndividual IRI="#A_mathematical_model_for_the_scheduling_and_definition_of_mining_cuts_in_short‑term_mine_planning"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_approach"/>
+        <NamedIndividual IRI="#A_Genetic_Algorithms_Approach_For_Grade_Control_Planning_In_A_Bauxite_Deposit"/>
+        <NamedIndividual IRI="#deterministic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_clustering_problem"/>
+        <NamedIndividual IRI="#A_Genetic_Algorithms_Approach_For_Grade_Control_Planning_In_A_Bauxite_Deposit"/>
+        <NamedIndividual IRI="#layer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_objective"/>
+        <NamedIndividual IRI="#A_Genetic_Algorithms_Approach_For_Grade_Control_Planning_In_A_Bauxite_Deposit"/>
+        <NamedIndividual IRI="#mono-objective"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_publisher"/>
+        <NamedIndividual IRI="#A_Genetic_Algorithms_Approach_For_Grade_Control_Planning_In_A_Bauxite_Deposit"/>
+        <NamedIndividual IRI="#Application_of_Computers_and_Operations_Research_in_the_Mineral_Industry"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_scheduling_algorithm"/>
+        <NamedIndividual IRI="#A_Genetic_Algorithms_Approach_For_Grade_Control_Planning_In_A_Bauxite_Deposit"/>
+        <NamedIndividual IRI="#ga"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_scheduling_model"/>
+        <NamedIndividual IRI="#A_Genetic_Algorithms_Approach_For_Grade_Control_Planning_In_A_Bauxite_Deposit"/>
+        <NamedIndividual IRI="#--"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_time_horizon"/>
+        <NamedIndividual IRI="#A_Genetic_Algorithms_Approach_For_Grade_Control_Planning_In_A_Bauxite_Deposit"/>
+        <NamedIndividual IRI="#short-term"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_year"/>
+        <NamedIndividual IRI="#A_Genetic_Algorithms_Approach_For_Grade_Control_Planning_In_A_Bauxite_Deposit"/>
+        <NamedIndividual IRI="#2005"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_approach"/>
+        <NamedIndividual IRI="#An_EDP-Model_Of_Open_Pit_Short_Term_Production_Scheduling_Optimization_For_Stratiform_Orebodies"/>
+        <NamedIndividual IRI="#deterministic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_clustering_problem"/>
+        <NamedIndividual IRI="#An_EDP-Model_Of_Open_Pit_Short_Term_Production_Scheduling_Optimization_For_Stratiform_Orebodies"/>
+        <NamedIndividual IRI="#layer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_objective"/>
+        <NamedIndividual IRI="#An_EDP-Model_Of_Open_Pit_Short_Term_Production_Scheduling_Optimization_For_Stratiform_Orebodies"/>
+        <NamedIndividual IRI="#multi-objective"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_publisher"/>
+        <NamedIndividual IRI="#An_EDP-Model_Of_Open_Pit_Short_Term_Production_Scheduling_Optimization_For_Stratiform_Orebodies"/>
+        <NamedIndividual IRI="#APCOM_Proceedings"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_scheduling_algorithm"/>
+        <NamedIndividual IRI="#An_EDP-Model_Of_Open_Pit_Short_Term_Production_Scheduling_Optimization_For_Stratiform_Orebodies"/>
+        <NamedIndividual IRI="#exact-algorithm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_scheduling_algorithm"/>
+        <NamedIndividual IRI="#An_EDP-Model_Of_Open_Pit_Short_Term_Production_Scheduling_Optimization_For_Stratiform_Orebodies"/>
+        <NamedIndividual IRI="#heuristic-algorithm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_scheduling_model"/>
+        <NamedIndividual IRI="#An_EDP-Model_Of_Open_Pit_Short_Term_Production_Scheduling_Optimization_For_Stratiform_Orebodies"/>
+        <NamedIndividual IRI="#lgp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_time_horizon"/>
+        <NamedIndividual IRI="#An_EDP-Model_Of_Open_Pit_Short_Term_Production_Scheduling_Optimization_For_Stratiform_Orebodies"/>
+        <NamedIndividual IRI="#short-term"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_year"/>
+        <NamedIndividual IRI="#An_EDP-Model_Of_Open_Pit_Short_Term_Production_Scheduling_Optimization_For_Stratiform_Orebodies"/>
+        <NamedIndividual IRI="#1992"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_paper"/>
+        <NamedIndividual IRI="#Askari-Nasab"/>
+        <NamedIndividual IRI="#Open_pit_optimisation_using_discounted_economic_block_values"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_paper"/>
+        <NamedIndividual IRI="#Askari-Nasab"/>
+        <NamedIndividual IRI="#A_Hybrid_Local_Search/Mixed_Integer_Programming_Approach_To_Open_Pit_Controlled_Phase-Design"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_paper"/>
+        <NamedIndividual IRI="#Awuah-Offei"/>
+        <NamedIndividual IRI="#Open_pit_optimisation_using_discounted_economic_block_values"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_paper"/>
+        <NamedIndividual IRI="#Bhattacherjee"/>
+        <NamedIndividual IRI="#A_Genetic_Algorithms_Approach_For_Grade_Control_Planning_In_A_Bauxite_Deposit"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_paper"/>
+        <NamedIndividual IRI="#Chanda"/>
+        <NamedIndividual IRI="#An_EDP-Model_Of_Open_Pit_Short_Term_Production_Scheduling_Optimization_For_Stratiform_Orebodies"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_paper"/>
+        <NamedIndividual IRI="#Ganguli"/>
+        <NamedIndividual IRI="#A_Genetic_Algorithms_Approach_For_Grade_Control_Planning_In_A_Bauxite_Deposit"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_paper"/>
+        <NamedIndividual IRI="#Mieth"/>
+        <NamedIndividual IRI="#A_Hybrid_Local_Search/Mixed_Integer_Programming_Approach_To_Open_Pit_Controlled_Phase-Design"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_paper"/>
+        <NamedIndividual IRI="#Morales"/>
+        <NamedIndividual IRI="#A_mathematical_model_for_the_scheduling_and_definition_of_mining_cuts_in_short‑term_mine_planning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_paper"/>
+        <NamedIndividual IRI="#Moreno"/>
+        <NamedIndividual IRI="#Practical_Performance_Of_An_Open_Pit_Mine_Scheduling_Model_Considering_Blending_And_Stockpiling"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_paper"/>
+        <NamedIndividual IRI="#Nelis"/>
+        <NamedIndividual IRI="#A_mathematical_model_for_the_scheduling_and_definition_of_mining_cuts_in_short‑term_mine_planning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_paper"/>
+        <NamedIndividual IRI="#Newman"/>
+        <NamedIndividual IRI="#Practical_Performance_Of_An_Open_Pit_Mine_Scheduling_Model_Considering_Blending_And_Stockpiling"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_approach"/>
+        <NamedIndividual IRI="#Open_pit_optimisation_using_discounted_economic_block_values"/>
+        <NamedIndividual IRI="#stochastic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_clustering_problem"/>
+        <NamedIndividual IRI="#Open_pit_optimisation_using_discounted_economic_block_values"/>
+        <NamedIndividual IRI="#bench-phase"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_objective"/>
+        <NamedIndividual IRI="#Open_pit_optimisation_using_discounted_economic_block_values"/>
+        <NamedIndividual IRI="#mono-objective"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_publisher"/>
+        <NamedIndividual IRI="#Open_pit_optimisation_using_discounted_economic_block_values"/>
+        <NamedIndividual IRI="#Mining_Technology"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_scheduling_algorithm"/>
+        <NamedIndividual IRI="#Open_pit_optimisation_using_discounted_economic_block_values"/>
+        <NamedIndividual IRI="#rl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_scheduling_model"/>
+        <NamedIndividual IRI="#Open_pit_optimisation_using_discounted_economic_block_values"/>
+        <NamedIndividual IRI="#des"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_time_horizon"/>
+        <NamedIndividual IRI="#Open_pit_optimisation_using_discounted_economic_block_values"/>
+        <NamedIndividual IRI="#long-term"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_year"/>
+        <NamedIndividual IRI="#Open_pit_optimisation_using_discounted_economic_block_values"/>
+        <NamedIndividual IRI="#2009"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_approach"/>
+        <NamedIndividual IRI="#Practical_Performance_Of_An_Open_Pit_Mine_Scheduling_Model_Considering_Blending_And_Stockpiling"/>
+        <NamedIndividual IRI="#deterministic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_clustering_problem"/>
+        <NamedIndividual IRI="#Practical_Performance_Of_An_Open_Pit_Mine_Scheduling_Model_Considering_Blending_And_Stockpiling"/>
+        <NamedIndividual IRI="#bench-phase"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_objective"/>
+        <NamedIndividual IRI="#Practical_Performance_Of_An_Open_Pit_Mine_Scheduling_Model_Considering_Blending_And_Stockpiling"/>
+        <NamedIndividual IRI="#mono-objective"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_publisher"/>
+        <NamedIndividual IRI="#Practical_Performance_Of_An_Open_Pit_Mine_Scheduling_Model_Considering_Blending_And_Stockpiling"/>
+        <NamedIndividual IRI="#Computers_and_Operations_Research"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_scheduling_algorithm"/>
+        <NamedIndividual IRI="#Practical_Performance_Of_An_Open_Pit_Mine_Scheduling_Model_Considering_Blending_And_Stockpiling"/>
+        <NamedIndividual IRI="#exact-algorithm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_scheduling_algorithm"/>
+        <NamedIndividual IRI="#Practical_Performance_Of_An_Open_Pit_Mine_Scheduling_Model_Considering_Blending_And_Stockpiling"/>
+        <NamedIndividual IRI="#toposort"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_scheduling_model"/>
+        <NamedIndividual IRI="#Practical_Performance_Of_An_Open_Pit_Mine_Scheduling_Model_Considering_Blending_And_Stockpiling"/>
+        <NamedIndividual IRI="#milp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_time_horizon"/>
+        <NamedIndividual IRI="#Practical_Performance_Of_An_Open_Pit_Mine_Scheduling_Model_Considering_Blending_And_Stockpiling"/>
+        <NamedIndividual IRI="#long-term"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_year"/>
+        <NamedIndividual IRI="#Practical_Performance_Of_An_Open_Pit_Mine_Scheduling_Model_Considering_Blending_And_Stockpiling"/>
+        <NamedIndividual IRI="#2020"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_paper"/>
+        <NamedIndividual IRI="#Rezakhah"/>
+        <NamedIndividual IRI="#Practical_Performance_Of_An_Open_Pit_Mine_Scheduling_Model_Considering_Blending_And_Stockpiling"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_paper"/>
+        <NamedIndividual IRI="#Samanta"/>
+        <NamedIndividual IRI="#A_Genetic_Algorithms_Approach_For_Grade_Control_Planning_In_A_Bauxite_Deposit"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_paper"/>
+        <NamedIndividual IRI="#Tabesh"/>
+        <NamedIndividual IRI="#A_Hybrid_Local_Search/Mixed_Integer_Programming_Approach_To_Open_Pit_Controlled_Phase-Design"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_paper"/>
+        <NamedIndividual IRI="#Wilke"/>
+        <NamedIndividual IRI="#An_EDP-Model_Of_Open_Pit_Short_Term_Production_Scheduling_Optimization_For_Stratiform_Orebodies"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_approach"/>
+        <NamedIndividual IRI="#A_Hybrid_Local_Search/Mixed_Integer_Programming_Approach_To_Open_Pit_Controlled_Phase-Design"/>
+        <NamedIndividual IRI="#deterministic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_clustering_algorithm"/>
+        <NamedIndividual IRI="#A_Hybrid_Local_Search/Mixed_Integer_Programming_Approach_To_Open_Pit_Controlled_Phase-Design"/>
+        <NamedIndividual IRI="#hc"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_clustering_algorithm"/>
+        <NamedIndividual IRI="#A_Hybrid_Local_Search/Mixed_Integer_Programming_Approach_To_Open_Pit_Controlled_Phase-Design"/>
+        <NamedIndividual IRI="#ts"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_clustering_problem"/>
+        <NamedIndividual IRI="#A_Hybrid_Local_Search/Mixed_Integer_Programming_Approach_To_Open_Pit_Controlled_Phase-Design"/>
+        <NamedIndividual IRI="#mining-cut"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_objective"/>
+        <NamedIndividual IRI="#A_Hybrid_Local_Search/Mixed_Integer_Programming_Approach_To_Open_Pit_Controlled_Phase-Design"/>
+        <NamedIndividual IRI="#mono-objective"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_publisher"/>
+        <NamedIndividual IRI="#A_Hybrid_Local_Search/Mixed_Integer_Programming_Approach_To_Open_Pit_Controlled_Phase-Design"/>
+        <NamedIndividual IRI="#APCOM_Proceedings"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_scheduling_algorithm"/>
+        <NamedIndividual IRI="#A_Hybrid_Local_Search/Mixed_Integer_Programming_Approach_To_Open_Pit_Controlled_Phase-Design"/>
+        <NamedIndividual IRI="#exact-algorithm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_scheduling_model"/>
+        <NamedIndividual IRI="#A_Hybrid_Local_Search/Mixed_Integer_Programming_Approach_To_Open_Pit_Controlled_Phase-Design"/>
+        <NamedIndividual IRI="#milp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_time_horizon"/>
+        <NamedIndividual IRI="#A_Hybrid_Local_Search/Mixed_Integer_Programming_Approach_To_Open_Pit_Controlled_Phase-Design"/>
+        <NamedIndividual IRI="#long-term"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_year"/>
+        <NamedIndividual IRI="#A_Hybrid_Local_Search/Mixed_Integer_Programming_Approach_To_Open_Pit_Controlled_Phase-Design"/>
+        <NamedIndividual IRI="#2013"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_approach"/>
+        <NamedIndividual IRI="#A_mathematical_model_for_the_scheduling_and_definition_of_mining_cuts_in_short‑term_mine_planning"/>
+        <NamedIndividual IRI="#deterministic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_clustering_algorithm"/>
+        <NamedIndividual IRI="#A_mathematical_model_for_the_scheduling_and_definition_of_mining_cuts_in_short‑term_mine_planning"/>
+        <NamedIndividual IRI="#exact-algorithm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_clustering_problem"/>
+        <NamedIndividual IRI="#A_mathematical_model_for_the_scheduling_and_definition_of_mining_cuts_in_short‑term_mine_planning"/>
+        <NamedIndividual IRI="#mining-cut"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_objective"/>
+        <NamedIndividual IRI="#A_mathematical_model_for_the_scheduling_and_definition_of_mining_cuts_in_short‑term_mine_planning"/>
+        <NamedIndividual IRI="#mono-objective"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_publisher"/>
+        <NamedIndividual IRI="#A_mathematical_model_for_the_scheduling_and_definition_of_mining_cuts_in_short‑term_mine_planning"/>
+        <NamedIndividual IRI="#Optimization_and_Engineering"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_scheduling_algorithm"/>
+        <NamedIndividual IRI="#A_mathematical_model_for_the_scheduling_and_definition_of_mining_cuts_in_short‑term_mine_planning"/>
+        <NamedIndividual IRI="#exact-algorithm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_scheduling_model"/>
+        <NamedIndividual IRI="#A_mathematical_model_for_the_scheduling_and_definition_of_mining_cuts_in_short‑term_mine_planning"/>
+        <NamedIndividual IRI="#milp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_time_horizon"/>
+        <NamedIndividual IRI="#A_mathematical_model_for_the_scheduling_and_definition_of_mining_cuts_in_short‑term_mine_planning"/>
+        <NamedIndividual IRI="#short-term"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_year"/>
+        <NamedIndividual IRI="#A_mathematical_model_for_the_scheduling_and_definition_of_mining_cuts_in_short‑term_mine_planning"/>
+        <NamedIndividual IRI="#2022"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_algorithm"/>
+        <Class IRI="#Title"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_approach"/>
+        <Class IRI="#Title"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_clustering_algorithm"/>
+        <Class IRI="#ClusteringProblem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_clustering_algorithm"/>
+        <Class IRI="#Title"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_clustering_problem"/>
+        <Class IRI="#Title"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_objective"/>
+        <Class IRI="#Title"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_paper"/>
+        <Class IRI="#Author"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_publisher"/>
+        <Class IRI="#Title"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_scheduling_algorithm"/>
+        <Class IRI="#SchedulingProblem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_scheduling_algorithm"/>
+        <Class IRI="#Title"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_scheduling_model"/>
+        <Class IRI="#SchedulingProblem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_scheduling_model"/>
+        <Class IRI="#Title"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_time_horizon"/>
+        <Class IRI="#Title"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_year"/>
+        <Class IRI="#Title"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_algorithm"/>
+        <Class IRI="#Algorithm"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_approach"/>
+        <Class IRI="#Approach"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_clustering_algorithm"/>
+        <Class IRI="#Algorithm"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_clustering_problem"/>
+        <Class IRI="#ClusteringProblem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_objective"/>
+        <Class IRI="#ObjectiveFunction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_paper"/>
+        <Class IRI="#Title"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_publisher"/>
+        <Class IRI="#Publisher"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_scheduling_algorithm"/>
+        <Class IRI="#Algorithm"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_scheduling_model"/>
+        <Class IRI="#MathematicalModel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_time_horizon"/>
+        <Class IRI="#TimeHorizon"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_year"/>
+        <Class IRI="#Year"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

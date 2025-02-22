@@ -1,0 +1,54 @@
+Classe: Algorithm 
+ Has subclasses like: ['Exact', 'Heuristic']
+Has instances like: ['exact-algorithm', 'ga', 'hc', 'heuristic-algorithm', 'rl', 'toposort', 'ts']
+Classe: Approach 
+ Has subclasses like: ['Deterministic', 'Stochastic']
+Has instances like: ['deterministic', 'stochastic']
+Classe: ClusteringProblem 
+ Has subclasses like: ['BenchPhaseClustering', 'LayerClustering', 'MiningCutClustering']
+Has instances like: ['bench-phase', 'layer', 'mining-cut']
+Classe: Heuristic 
+ Has subclasses like: ['GA', 'HC', 'RL', 'TS', 'Toposort']
+Has instances like: ['ga', 'hc', 'heuristic-algorithm', 'rl', 'toposort', 'ts']
+Classe: MathematicalModel 
+ Has subclasses like: ['DES', 'LGP', 'MILP', '-']
+Has instances like: ['des', 'lgp', 'milp', '--']
+Classe: ObjectiveFunction 
+ Has subclasses like: ['MonoObjective', 'MultiObjective']
+Has instances like: ['mono-objective', 'multi-objective']
+Classe: ProblemType 
+ Has subclasses like: ['ClusteringProblem', 'SchedulingProblem']
+Has instances like: ['bench-phase', 'layer', 'mining-cut']
+Classe: TimeHorizon 
+ Has subclasses like: ['LTMP', 'STMP']
+Has instances like: ['long-term', 'short-term']
+Classe: Algorithm 
+ Has subclasses like: ['Exact', 'Heuristic']
+  Has instances like: ['exact-algorithm', 'ga', 'hc', 'heuristic-algorithm', 'rl', 'toposort', 'ts']
+Classe: Approach 
+ Has subclasses like: ['Deterministic', 'Stochastic']
+  Has instances like: ['deterministic', 'stochastic']
+Classe: Algorithm 
+ Has subclasses like: ['Exact', 'Heuristic']
+  Has instances like: ['exact-algorithm', 'ga', 'hc', 'heuristic-algorithm', 'rl', 'toposort', 'ts']
+Classe: Approach 
+ Has subclasses like: ['Deterministic', 'Stochastic']
+  Has instances like: ['deterministic', 'stochastic']
+Classe: Algorithm 
+ Has subclasses like: ['Exact', 'Heuristic']
+  Has instances like: ['exact-algorithm', 'ga', 'hc', 'heuristic-algorithm', 'rl', 'toposort', 'ts']
+Classe: Approach 
+ Has subclasses like: ['Deterministic', 'Stochastic']
+  Has instances like: ['deterministic', 'stochastic']
+Classe: Algorithm 
+ Has subclasses like: ['Exact', 'Heuristic']
+  Has instances like: ['exact-algorithm', 'ga', 'hc', 'heuristic-algorithm', 'rl', 'toposort', 'ts']
+Classe: Approach 
+ Has subclasses like: ['Deterministic', 'Stochastic']
+  Has instances like: ['deterministic', 'stochastic']
+Classe: Algorithm 
+ Has subclasses like: ['Exact', 'Heuristic']
+  Has instances like: ['exact-algorithm', 'ga', 'hc', 'heuristic-algorithm', 'rl', 'toposort', 'ts']
+Classe: Approach 
+ Has subclasses like: ['Deterministic', 'Stochastic']
+  Has instances like: ['deterministic', 'stochastic']

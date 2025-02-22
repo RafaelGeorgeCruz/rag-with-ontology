@@ -1,0 +1,55 @@
+Here are some informations about the data extracted from the ontology, use this as truth
+Class: Algorithm
+    Subclass: Exact
+    Subclass: Heuristic
+        Subclass: GA
+        Subclass: HC
+        Subclass: RL
+        Subclass: TS
+        Subclass: Toposort
+----------------------
+Class: Approach
+    Subclass: Deterministic
+    Subclass: Stochastic
+----------------------
+Class: Author
+----------------------
+Class: MathematicalModel
+    Subclass: DES
+    Subclass: LGP
+    Subclass: MILP
+    Subclass: -
+----------------------
+Class: ObjectiveFunction
+    Subclass: MonoObjective
+    Subclass: MultiObjective
+----------------------
+Class: ProblemType
+    Subclass: ClusteringProblem
+        Subclass: BenchPhaseClustering
+        Subclass: LayerClustering
+        Subclass: MiningCutClustering
+    Subclass: SchedulingProblem
+----------------------
+Class: Publisher
+----------------------
+Class: TimeHorizon
+    Subclass: LTMP
+    Subclass: STMP
+----------------------
+Class: Title
+----------------------
+Class: Year
+----------------------
+=== Object Properties ===
+All Title has_algorithm of Algorithmtype
+All Title has_approach of Approachtype
+All ClusteringProblem has_clustering_algorithm of Algorithmtype
+All Title has_clustering_problem of ClusteringProblemtype
+All Title has_objective of ObjectiveFunctiontype
+All Author has_paper of Titletype
+All Title has_publisher of Publishertype
+All SchedulingProblem has_scheduling_algorithm of Algorithmtype
+All SchedulingProblem has_scheduling_model of MathematicalModeltype
+All Title has_time_horizon of TimeHorizontype
+All Title has_year of Yeartype
